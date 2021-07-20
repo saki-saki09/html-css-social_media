@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body{
+	background-color: lightcyan;
+}
+nav{
+	padding: 20px 0px;
+	background-color: lightgrey;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+a{
+	text-decoration: none;
+}
+.nav{
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+}
+nav a{
+	background-color: lightblue;
+	padding: 10px;
+	color: black;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-flex;
+	margin: 0 25px;
+}
+.nav a:hover{
+	border: 3px solid green;
+}
+.search input[type="search"]{
+	width: auto;
+	padding: 5px 12px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+.search input{
+	margin: 0px 25px;
+}
+.user-log{
+	align-items: flex-end;
+	text-align: center;
+	margin: 5px 25px 0px; 
+}
+.whole-body{
+	display: flex;
+	justify-content: space-between;
+}
+.appearence{
+	flex-basis: 25%;
+	position: sticky;
+	top: 73px;
+	align-self: flex-start;
+	color: white;
+	background-color: slategray;
+	width: 200px;
+	height: 89vh;
+}
+.activity-log{
+	background-color: gray;
+	padding: 20px;
+}
+.activity-log ul li{
+	list-style: none;
+	padding: 12px;
+}
+#show-hide{
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.activity-log a{
+	font-size: 18px;
+	color: white;
+}
+.activity-log a:hover{
+	color: black;
+}
+.side-bar{
+	flex-basis: 25%;
+	position: sticky;
+	top: 73px;
+	align-self: flex-start;
+	color: white;
+	background-color: slategray;
+	padding: 15px;
+	width: 200px;
+	height: 95vh;
+}
+.ad-part{
+	background-color: #b3b5bb;
+	padding: 35px 25px;
+	align-items: center;
+	justify-content: center;
+}
+.posting{
+	padding: 15px;
+	flex-basis: 47%;
+	text-align: center;
+	background: transparent;
+}
+.contact ul li{
+	cursor: pointer;
+	color: black;
+	list-style: none;
+	padding: 10px;
+}
+.contact ul li:hover{
+	color: white;
+}
+.group-page{
+	padding: 15px;
+}
+.shortcut ul li{
+	list-style: none;
+	padding: 15px;
+}
+.shortcut a{
+	color: black;
+	text-decoration: none;
+}
+.shortcut a:hover{
+	color: white;
+}
+.stories img{
+	border-radius: 10px;
+	display: inline-block;
+	cursor: pointer;
+	margin: 0px 3px;
+}
+.posted{
+	background-color: gray;
+	padding: 15px;
+	margin-top: 20px;
+}
+.caption{
+	background-color: #cdcfd4;
+	padding: 15px;
+}
+.caption h3{
+	font-size: 18px;
+}
+.caption span{
+	color: #2b2b2c;
+	font-size: 12px;
+}
+.posted img{
+	margin-top: 5px;
+	background-color: white;
+	padding: 0px;
+	width: 600px;
+	height: 500px;
+}
+#l-s-c{
+	display: flex;
+	justify-content: space-between;
+}
+#l-s-c span{
+	color: white;
+	background-color: black;
+	padding: 2px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
